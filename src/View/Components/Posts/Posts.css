@@ -1,0 +1,85 @@
+.posts {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    z-index: 5;
+}
+
+.post {
+    background-color: #C4C4C4;
+    width: 630px;
+    max-width: 80%;
+    height: 375px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+
+/* -- COMENTÁRIO -- */
+
+.mainPost {
+    width: 55%;
+    height: 100%;
+    background-color: azure;
+}
+
+
+
+/* -- DIV COMENTÁRIOS DE USUÁRIOS -- */
+
+.post .comments {
+    background-color: #F0E5E5;
+    width: 40%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.commentsDiv .commentsBar {
+    background-color: #C4C4C4;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.commentsDiv {
+    height: 85%;
+    overflow-y: scroll;
+    padding-right: 5px;
+}
+
+.comments .commentsDiv::-webkit-scrollbar {
+    /* height: 1px; */
+    width: 1px;
+}
+
+.comments .commentsDiv::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.comments .commentsDiv::-webkit-scrollbar-track {
+    background-color: #C4C4C4;
+}
+
+
+
+/* -- INPUT COMENTÁRIOS -- */
+
+.comments .commentBar{
+    height: 10%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}

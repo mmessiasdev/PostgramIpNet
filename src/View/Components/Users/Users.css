@@ -81,5 +81,22 @@
     background-color: #C4C4C4;
     padding: 50px;
     border-radius: 20px;
+    padding-top: 25px;
     box-shadow: 0px 0px 50px #00000056;
+}
+
+.photoDiv .name{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.photoDiv .name h5{
+    margin-left: 10px;
+}
+
+.photoDiv .avatar img{
+    height: 20px;
+    border-radius: 50%;
 }

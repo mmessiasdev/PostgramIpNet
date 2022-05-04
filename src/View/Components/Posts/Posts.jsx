@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { IoMdSend } from 'react-icons/io';
 
-const Posts = () => {
+const Posts = ({nameComment, comment}) => {
 
     const [comments, setComments] = useState()
     const [allComments, setAllComments] = useState([]) // State react used to show the values in <li> just when click in the button "comment"
@@ -28,6 +28,12 @@ const Posts = () => {
                             {eachComment}
                         </li>
                     ))}
+                </ul>
+                <ul>
+                    <li className="commentsBar">
+                        <h5 className="commentName">{nameComment}</h5>
+                        {comment}
+                    </li>
                 </ul>
             </div>
             <div className="commentInput">

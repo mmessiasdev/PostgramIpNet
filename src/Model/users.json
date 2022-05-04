@@ -6,7 +6,21 @@
         "photo1": "https://i.imgur.com/n9D8Jzf.png",
         "photo2": "https://i.imgur.com/I0TbuuZ.png",
         "photo3": "https://i.imgur.com/BObyEOs.png?3",
-        "post": "https://i.imgur.com/I0TbuuZ.png"
+        "post": "https://i.imgur.com/I0TbuuZ.png",
+        "comments": [
+            {
+                "namecomment": "kathlensantos25",
+                "comment": "Amo conhecer esse ser Humano que você é/se tornou de pertinho. Amo vc ❤️"
+            },
+            {
+                "namecomment": "miltongabrielr",
+                "comment": "A pontuação perfeita meu pai, como não conseguiria perceber que é diferente? KKKKKKKK te amo danado ❤️❤️❤️"
+            },
+            {
+                "namecomment": "claudinhamnl",
+                "comment": "❤️❤️❤️❤️🙌🙌🙌🙌😍"
+            }
+        ]
     },
     {
         "id": 1,
@@ -15,7 +29,17 @@
         "photo1": "https://i.imgur.com/ILA0DIe.png?1",
         "photo2": "https://i.imgur.com/3fG6aZ8.png",
         "photo3": "https://i.imgur.com/TZrwnzJ.png",
-        "post": "https://i.imgur.com/ILA0DIe.png?1" 
+        "post": "https://i.imgur.com/ILA0DIe.png?1",
+        "comments": [
+            {
+                "namecomment": "carlosvergilio_",
+                "comment": "O que mais enriquece um homem não é a experiência: é a observação... 💭"
+            },
+            {
+                "namecomment": "euthaysil",
+                "comment": "Prima amaaaaa ❤️❤️"
+            }
+        ]
     },
     {
         "id": 1,
@@ -24,7 +48,25 @@
         "photo1": "https://i.imgur.com/7gWq6wn.png",
         "photo2": "https://i.imgur.com/sZVeDSe.png?1",
         "photo3": "https://i.imgur.com/fvwHTQT.png?1",
-        "post": "https://i.imgur.com/7gWq6wn.png"
+        "post": "https://i.imgur.com/7gWq6wn.png",
+        "comments": [
+            {
+                "namecomment": "cellecarvalho9_",
+                "comment": "Maravilhosaaaaa ❤️ tão cristalina e linda 😍"
+            },
+            {
+                "namecomment": "pspozesr",
+                "comment": "Belíssima 🔥"
+            },
+            {
+                "namecomment": "pedrobcampelo",
+                "comment": "Se souberem que nos bastidores da foto eu tô pendurado em cima do barco… entreguei mt nessa"
+            },
+            {
+                "namecomment": "miisoares_",
+                "comment": "Que foto lindaaaaaa"
+            }
+        ]
     },
     {
         "id": 1,
@@ -33,7 +75,21 @@
         "photo1": "https://i.imgur.com/Tfynwty.png",
         "photo2": "https://i.imgur.com/Awx3zjf.png",
         "photo3": "https://i.imgur.com/BxH0VLb.png",
-        "post": "https://i.imgur.com/Awx3zjf.png"
+        "post": "https://i.imgur.com/Awx3zjf.png",
+        "comments": [
+            {
+                "namecomment": "raquelbaldussi",
+                "comment": "Último casamento do ano ♥️💃🏻"
+            },
+            {
+                "namecomment": "meirebiscaro",
+                "comment": "Casal mais lindo 😍😍😍"
+            },
+            {
+                "namecomment": "stephmelogo",
+                "comment": "que lindaaa 😍"
+            }
+        ]
     },
     {
         "id": 1,
@@ -42,7 +98,16 @@
         "photo1": "https://i.imgur.com/SrCE6K8.png",
         "photo2": "https://i.imgur.com/Jv2UXgW.png",
         "photo3": "https://i.imgur.com/GXnn6DK.png",
-        "post": "https://i.imgur.com/SrCE6K8.png"
+        "post": "https://i.imgur.com/SrCE6K8.png",
+        "comments": [
+            {
+                "namecomment": "mariagabriela.sm",
+                "comment": "😍"
+            },
+            {
+                "namecomment": "vivvrodrigues",
+                "comment": "Kaiak pra mostrar mesmo as orige! Lindaaaaa"
+            }
+        ]
     }
-    
 ]

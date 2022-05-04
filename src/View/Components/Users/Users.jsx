@@ -18,6 +18,7 @@ const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
             <div className="name" id="name">{name}</div>
         </article>
         <div className="photoDiv" id="photoDiv" data-aos="fade-right">
+            <div className="name" id="name"><div className="avatar"><img src={avatar} /></div><h5>{name}</h5></div>
             <Slender {...settings}>
                 <div className="divPhotoUsers">
                     <img src={photo1} alt="userPhoto" />

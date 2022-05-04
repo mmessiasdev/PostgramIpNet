@@ -5,39 +5,44 @@
         "perfil": "https://i.imgur.com/ijbiFDS.jpg",
         "photo1": "https://i.imgur.com/n9D8Jzf.png",
         "photo2": "https://i.imgur.com/I0TbuuZ.png",
-        "photo3": "https://i.imgur.com/BObyEOs.png?3"
+        "photo3": "https://i.imgur.com/BObyEOs.png?3",
+        "post": "https://i.imgur.com/I0TbuuZ.png"
     },
     {
-        "id": 2,
+        "id": 1,
         "name": "Carlos Vergilio",
         "perfil": "https://i.imgur.com/m37M9eq.jpg",
         "photo1": "https://i.imgur.com/ILA0DIe.png?1",
         "photo2": "https://i.imgur.com/3fG6aZ8.png",
-        "photo3": "https://i.imgur.com/TZrwnzJ.png"
+        "photo3": "https://i.imgur.com/TZrwnzJ.png",
+        "post": "https://i.imgur.com/ILA0DIe.png?1" 
     },
     {
-        "id": 3,
+        "id": 1,
         "name": "Livia Rezen",
         "perfil": "https://i.imgur.com/oMiqRBZ.jpg",
         "photo1": "https://i.imgur.com/7gWq6wn.png",
         "photo2": "https://i.imgur.com/sZVeDSe.png?1",
-        "photo3": "https://i.imgur.com/fvwHTQT.png?1"
+        "photo3": "https://i.imgur.com/fvwHTQT.png?1",
+        "post": "https://i.imgur.com/7gWq6wn.png"
     },
     {
-        "id": 4,
+        "id": 1,
         "name": "Raquel Baldussi",
         "perfil": "https://i.imgur.com/zKA329D.jpg",
         "photo1": "https://i.imgur.com/Tfynwty.png",
         "photo2": "https://i.imgur.com/Awx3zjf.png",
-        "photo3": "https://i.imgur.com/BxH0VLb.png"
+        "photo3": "https://i.imgur.com/BxH0VLb.png",
+        "post": "https://i.imgur.com/Awx3zjf.png"
     },
     {
-        "id": 5,
+        "id": 1,
         "name": "Vivian Miranda",
         "perfil": "https://i.imgur.com/J1mPnYZ.jpg",
         "photo1": "https://i.imgur.com/SrCE6K8.png",
         "photo2": "https://i.imgur.com/Jv2UXgW.png",
-        "photo3": "https://i.imgur.com/GXnn6DK.png"
+        "photo3": "https://i.imgur.com/GXnn6DK.png",
+        "post": "https://i.imgur.com/SrCE6K8.png"
     }
     
 ]

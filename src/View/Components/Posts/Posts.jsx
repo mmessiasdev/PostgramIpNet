@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { IoMdSend } from 'react-icons/io';
 
-const Posts = ({nameComment, comment}) => {
+import Data from '../../../Model/users.json';
 
-    const [comments, setComments] = useState()
-    const [allComments, setAllComments] = useState([]) // State react used to show the values in <li> just when click in the button "comment"
+const Posts = ({imagePost}) => {
+
+    const [comments, setComments] = useState('');
+    const [allComments, setAllComments] = useState([]);
 
     function changesTextarea(event) {
         setComments(event.target.value)
@@ -13,11 +15,20 @@ const Posts = ({nameComment, comment}) => {
     function clickButton() {
         const allPreviousComments = [...allComments, comments]
         setAllComments(allPreviousComments)
+
+        if (comments === '') {
+            alert('Escreva um comentário Válido.')
+            return;
+        } try {
+            setComments("");
+        } catch (error) {
+
+        }
     }
 
     return (<div className="post">
         <div className="mainPost">
-
+            <img src={imagePost} alt="" />
         </div>
         <div className="comments">
             <div className="commentsDiv">
@@ -29,15 +40,23 @@ const Posts = ({nameComment, comment}) => {
                         </li>
                     ))}
                 </ul>
-                <ul>
-                    <li className="commentsBar">
-                        <h5 className="commentName">{nameComment}</h5>
-                        {comment}
-                    </li>
-                </ul>
+                {Data.map((results) => {
+                    return (<ul key={results.userid} >
+
+                       {results.comments.map(data => {
+                            return (<div key={results.userid}>{data.user.map(cname => {return <li className="commentsBar" key={results.userid}><h5>{cname.namecomment}</h5>{cname.comment}</li>})}</div>)
+                        })}
+
+
+                 
+                    </ul>)
+                })}
+
+
+
             </div>
             <div className="commentInput">
-                <input className="commentBar" onChange={changesTextarea} placeholder="Comente Algo..." ></input>
+                <input className="commentBar" value={comments} onChange={changesTextarea} placeholder="Comente Algo..." ></input>
                 <button onClick={clickButton} className="commentButton" ><IoMdSend /></button>
             </div>
         </div>

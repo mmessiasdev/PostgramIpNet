@@ -7,7 +7,7 @@ import Data from '../../Model/users.json';
 
 const HomePage = () => {
 
-    
+
 
     return (<div className="HomePage">
         <header>
@@ -17,11 +17,52 @@ const HomePage = () => {
             <div className="decoration">
                 <p>Postagens</p>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div className="posts">
                 {Data.map((results) => {
-                    return <Posts nameComment={results.comments[1].namecomment} comment={results.comments[1].comment} />
+                    return <Posts imagePost={results.post}/>
+                    // key={results.userid} nameComment={results.comments.map(data => {
+                    //     return (<div key={results.userid}>{data.namecomment}</div>)
+                    // })} postComment={results.comments.map(c => {
+                    //     return (<div key={results.userid}>{c.comment}</div>)
+                    // })} 
+                
                 })}
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <hr className="partition" />
             <div className="rightBar">
                 <div className="users">

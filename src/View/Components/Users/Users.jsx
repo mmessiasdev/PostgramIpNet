@@ -8,7 +8,7 @@ const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 2000,
         pauseOnHover: true
     }
 

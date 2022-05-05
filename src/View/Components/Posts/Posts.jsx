@@ -1,18 +1,22 @@
 import { useState } from "react";
-import { IoMdSend } from 'react-icons/io';
+import { IoMdSend } from 'react-icons/io'; // Ícone de envio da mensagem
 
-import Data from '../../../Model/users.json';
 
-const Posts = ({imagePost}) => {
 
-    const [comments, setComments] = useState('');
-    const [allComments, setAllComments] = useState([]);
+const Posts = ({ imagePost, avatar, name, comment }) => {
 
+    const [comments, setComments] = useState(''); // State responsavél pela ação de envio dos Comentários
+    const [allComments, setAllComments] = useState([]); // State de passagem dos comentários de input pra Div
+
+
+    // Set de valores dos Comentários
     function changesTextarea(event) {
         setComments(event.target.value)
     }
 
-    function clickButton() {
+
+    // Responsavél pela ação clique dos comentários
+    function clickButton() { 
         const allPreviousComments = [...allComments, comments]
         setAllComments(allPreviousComments)
 
@@ -26,34 +30,31 @@ const Posts = ({imagePost}) => {
         }
     }
 
-    return (<div className="post">
+    return (<div className="post" data-aos="fade-in">
+        <article title="userName" className="userName">
+            <div className="avatar"><img src={avatar} /></div>
+            <div className="name" id="name">{name}</div>
+        </article>
         <div className="mainPost">
-            <img src={imagePost} alt="" />
+            <div className="divPost">
+                <img src={imagePost} alt="" />
+            </div>
         </div>
         <div className="comments">
             <div className="commentsDiv">
                 <ul>
                     {allComments.map(eachComment => (
                         <li className="commentsBar" key={eachComment}>
-                            <h5 className="commentName">Nome</h5>
+                            <h5 className="commentName">Você</h5>
                             {eachComment}
                         </li>
                     ))}
                 </ul>
-                {Data.map((results) => {
-                    return (<ul key={results.userid} >
-
-                       {results.comments.map(data => {
-                            return (<div key={results.userid}>{data.user.map(cname => {return <li className="commentsBar" key={results.userid}><h5>{cname.namecomment}</h5>{cname.comment}</li>})}</div>)
-                        })}
-
-
-                 
-                    </ul>)
-                })}
-
-
-
+                <ul>
+                    <li className="commentsBarUser">
+                        <h5> {comment}</h5>
+                    </li>
+                </ul>
             </div>
             <div className="commentInput">
                 <input className="commentBar" value={comments} onChange={changesTextarea} placeholder="Comente Algo..." ></input>

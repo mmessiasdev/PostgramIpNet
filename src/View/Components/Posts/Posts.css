@@ -20,7 +20,7 @@
 
 
 
-/* -- COMENTÁRIO -- */
+/* ---------- Comentários ------------- */
 
 .mainPost {
     width: 55%;
@@ -35,9 +35,27 @@
     height: 100%;
 }
 
+.post .userName{
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 5px;
+    padding-block: 2px;
+    border-bottom-right-radius: 10px;
+}
+.post .userName .avatar img{
+    height: 25px;
+}
+.post .userName .name{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 8px;
+}
 
 
-/* -- DIV COMENTÁRIOS DE USUÁRIOS -- */
+
+/* ---------- Div comtário dos Usuários ------------- */
 
 .post .comments {
     background-color: #F0E5E5;
@@ -51,17 +69,23 @@
 }
 
 .commentsDiv .commentsBar {
-    background-color: #C4C4C4;
+    background-color: #e0e0e0;
     width: 100%;
     font-size: 13px;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
 }
-
-.commentsBar .commentName h2{
-    font-weight: 600;
-    font: 10px;
+.commentBar h5{
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.divComment{
+    background-color: #C4C4C4;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 400;
 }
 
 .commentsDiv {
@@ -86,7 +110,7 @@
 
 
 
-/* -- INPUT COMENTÁRIOS -- */
+/* ---------- Input de Comentários ------------- */
 
 .comments .commentBar{
     height: 10%;
@@ -98,14 +122,12 @@
     width: 80%;
     font-family: 'Montserrat', sans-serif;
 }
-
 .comments .commentInput{
     justify-content: space-between;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .commentButton{
     border: none;
     background-color: #C4C4C4;

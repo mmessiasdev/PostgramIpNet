@@ -4,7 +4,9 @@
     padding-bottom: 20px;
     padding-inline: 50px;
     overflow-y: scroll;
+    width: 95%;
 }
+
 .user{
     width: 100%;
     background-color: #FFECEC;
@@ -13,7 +15,7 @@
     display: flex;
     align-items: center;
     height: 70px;
-    padding: 20px;
+    padding: 10px;
     padding-block: 10px;
     transition: all 1s;
 }
@@ -23,38 +25,38 @@
     transition: all 1s;
 }
 
+
+
+
+/* ---------- Scrol lateral da página ------------- */
+
 .rightBar .users::-webkit-scrollbar {
-    /* height: 1px; */
-    width: 3px;
+    width: 2px;
 }
 
 .rightBar .users::-webkit-scrollbar-thumb {
-    background-color: #000000;
+    background-color: #b2b2b2;
     border-radius: 15px;
 }
-
 .rightBar .users::-webkit-scrollbar-track {
-    background-color: #000000;
+    background-color: #003f36;
 }
-
 .user .userName{
     display: flex;
     align-items: center;
 }
-
 .userName .avatar img{
     height: 50px;
     border-radius: 50%;
 }
-
 .userName .name{
     width: max-content;
     margin-left: 20px;
-
 }
 
 
 
+/* ---------- Div de usuários ------------- */
 
 .divPhotoUsers{
     height: 120px;

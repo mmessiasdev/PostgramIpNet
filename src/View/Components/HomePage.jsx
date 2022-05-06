@@ -3,6 +3,8 @@ import { useState } from "react";
 import Posts from "./Posts/Posts";
 import Users from "./Users/Users";
 
+import { FaGithubSquare } from 'react-icons/fa';
+
 import Data from '../../Model/users.json'; // Json de usuários
 
 
@@ -11,30 +13,34 @@ import Data from '../../Model/users.json'; // Json de usuários
 
 const HomePage = () => {
 
-    const [navBar, setNavBar] = useState(false);
-
+    const [navBar, setNavBar] = useState(false); // Responsável pela animação de Scroll da barra Menu
     const changeBackground = () => {
-        if (window.scrollY >= 80 && window.scrollY <= 6975) {
+        if (window.scrollY >= 10) {
             setNavBar(true);
         } else {
             setNavBar(false);
         }
     };
-    console.log(window.scrollY);
-
+    // console.log(window.scrollY);
     window.addEventListener('scroll', changeBackground);
 
 
     return (<div className="HomePage">
 
         <header className={navBar ? 'menuActive' : 'menu'}>
-            <h1>Postgram</h1>
+            <h1 data-aos="fade-right">Postgram</h1>
+            <a href="https://github.com/mmessiasdev/PostgramIpNet.git" target="_blank" rel="noopener noreferrer">
+                <div className="icon">
+                    <h5>Código</h5>
+                    <FaGithubSquare />
+                </div>
+            </a>
         </header>
 
         <div className="content">
 
             <div className="decoration">
-                <p>Postagens</p>
+                <p  data-aos="fade-right">Postagens</p>
             </div>
 
             <div className="posts">
@@ -46,7 +52,7 @@ const HomePage = () => {
 
             <hr className="partition" />
 
-            <div className="rightBar">
+            <div className="rightBar" data-aos="fade-left">
                 <div className="users">
                     Usuários
                     {Data.map((results) => {

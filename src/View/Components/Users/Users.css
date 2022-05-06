@@ -1,10 +1,11 @@
 .users{
     height: 500px;
-    padding-top: 85px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
     padding-inline: 50px;
     overflow-y: scroll;
     width: 95%;
+    margin-top: 30px;
 }
 
 .user{
@@ -35,11 +36,11 @@
 }
 
 .rightBar .users::-webkit-scrollbar-thumb {
-    background-color: #b2b2b2;
+    background-color: #000000;
     border-radius: 15px;
 }
 .rightBar .users::-webkit-scrollbar-track {
-    background-color: #003f36;
+    background-color: #c4c4c4;
 }
 .user .userName{
     display: flex;

@@ -19,6 +19,33 @@
     font-size: 50px;
     transition: all .2s;
 }
+.menu .icon{
+    display: none;
+}
+.menuActive a{
+    text-decoration: none;
+}
+.menuActive .icon{
+    transition: all .2s;
+    font-size: 35px;
+    padding: 20px;
+    color: rgb(101, 101, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.menuActive .icon:hover{
+    background-color: rgb(255, 255, 255);
+}
+.menuActive .icon h5{
+    font-size: 15px;
+    margin-right: 20px;
+}
 .menu {
     position: fixed;
     justify-content: space-between;
@@ -26,9 +53,11 @@
     transition: all .2s;
     align-items: center;
     opacity: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    padding-inline: 50px;
 }
 .menuActive {
-    padding-inline: 25px;
+    padding-inline: 50px;
     transition: all .2s ease-out;
     width: 100vw;
     height: 50px;
@@ -36,7 +65,7 @@
     z-index: 10;
     align-items: center;
     display: flex;
-    background-image: linear-gradient(40deg, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-color: rgb(250, 250, 250);
     opacity: 100%;
     justify-content: space-between;
     font-size: 10px;
@@ -83,8 +112,8 @@
  
 }
 .content .partition{
-    margin-top: 60px;
-    height: 500px;
+    margin-top: 75px;
+    height: 30%;
 }
 
 
@@ -93,6 +122,7 @@
 
 .content .rightBar{
     height: 100%;
+    margin-top: 50px;
 
 }
 
@@ -108,4 +138,16 @@
     display: flex;
     overflow: hidden;
     border-radius: 30px;
+}
+
+.Login{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(16, 16, 16);
+}
+
+.buttonEnter{
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
 }

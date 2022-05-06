@@ -29,7 +29,7 @@ const HomePage = () => {
 
         <header className={navBar ? 'menuActive' : 'menu'}>
             <h1 data-aos="fade-right">Postgram</h1>
-            <a href="https://github.com/mmessiasdev/PostgramIpNet.git" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/mmessiasdev/PostgramIpNet.git" target="_blank" rel="noopener noreferrer" role={"header-active"}>
                 <div className="icon">
                     <h5>Código</h5>
                     <FaGithubSquare />
@@ -43,7 +43,7 @@ const HomePage = () => {
                 <p  data-aos="fade-right">Postagens</p>
             </div>
 
-            <div className="posts">
+            <div className="posts" role={"posts"}>
                 {Data.map((results) => {
                     return <Posts imagePost={results.post} name={results.name} avatar={results.perfil} comment={results.comments.map(data => { return (<div>{data.user.map(c => { return (<h5 className="divComment">{c.comment}</h5>) })}</div>) })} />
 
@@ -53,7 +53,7 @@ const HomePage = () => {
             <hr className="partition" />
 
             <div className="rightBar" data-aos="fade-left">
-                <div className="users">
+                <div className="users" role={"users"}>
                     Usuários
                     {Data.map((results) => {
                         return <Users avatar={results.perfil} name={results.name} photo1={results.photo1} photo2={results.photo2} photo3={results.photo3} />
@@ -61,7 +61,7 @@ const HomePage = () => {
                 </div>
                 <div className="adverts">
                     <div className="divAdverts">
-                        <img src="https://i.imgur.com/vJap7sw.png" alt="" srcset="" />
+                        <img src="https://i.imgur.com/vJap7sw.png" alt='advertsImage'/>
                     </div>
                 </div>
             </div>

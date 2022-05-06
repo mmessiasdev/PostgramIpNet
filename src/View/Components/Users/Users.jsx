@@ -1,4 +1,4 @@
-import Slender from 'react-slick';
+// import Slender from 'react-slick';
 
 
 
@@ -22,18 +22,23 @@ const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
             <div className="name" id="name">{name}</div>
         </article>
         <div className="photoDiv" id="photoDiv" data-aos="fade-right">
-            <div className="name" id="name"><div className="avatar"><img src={avatar} /></div><h5>{name}</h5></div>
-            <Slender {...settings}>
-                <div className="divPhotoUsers">
-                    <img src={photo1} alt="userPhoto" />
+            <div className="name" id="name" role={'userList'}>
+                <div className="avatar">
+                    <img src={avatar} />
                 </div>
-                <div className="divPhotoUsers">
-                    <img src={photo2} alt="" />
-                </div>
-                <div className="divPhotoUsers">
-                    <img src={photo3} alt="" />
-                </div>
-            </Slender>
+                <h5>{name}</h5>
+            </div>
+            {/* <Slender {...settings}> */}
+            <div className="divPhotoUsers">
+                <img src={photo1} alt="userPhoto" />
+            </div>
+            <div className="divPhotoUsers">
+                <img src={photo2} alt="" />
+            </div>
+            <div className="divPhotoUsers">
+                <img src={photo3} alt="" />
+            </div>
+            {/* </Slender> */}
         </div>
     </div>)
 }

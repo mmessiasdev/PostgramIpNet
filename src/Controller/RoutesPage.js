@@ -6,6 +6,9 @@ import history from "../Model/History";
 import Login from '../View/Login';
 import HomePage from '../View/Components/HomePage'
 
+
+// ---------- PARTE RESPONSÁVEL PELO GERENCIAMENTO DE PÁGINAS DO APP ---------- // 
+
 function RoutesPage() {
 
     return (

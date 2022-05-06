@@ -17,7 +17,7 @@
 
 ## 5 - Estilizar animações ✅
 
-## 6 - Programar Eventos
+## 6 - Programar Eventos ✅
 
 ## 7 - Realizar Testes
 

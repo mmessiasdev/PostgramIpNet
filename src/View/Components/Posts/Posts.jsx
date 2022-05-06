@@ -9,7 +9,7 @@ const Posts = ({ imagePost, avatar, name, comment }) => {
     const [allComments, setAllComments] = useState([]); // State de passagem dos comentários de input pra Div
 
 
-    // Set de valores dos Comentários
+    // Set de valores dos Comentários   
     function changesTextarea(event) {
         setComments(event.target.value)
     }
@@ -36,8 +36,8 @@ const Posts = ({ imagePost, avatar, name, comment }) => {
             <div className="name" id="name">{name}</div>
         </article>
         <div className="mainPost">
-            <div className="divPost">
-                <img src={imagePost} alt="" />
+            <div className="divPost" role={"imagePost"}>
+                <img src={imagePost}/>
             </div>
         </div>
         <div className="comments">
@@ -45,14 +45,14 @@ const Posts = ({ imagePost, avatar, name, comment }) => {
                 <ul>
                     {allComments.map(eachComment => (
                         <li className="commentsBar" key={eachComment}>
-                            <h5 className="commentName">Você</h5>
+                            <h5 role={'youCommit'} className="commentName">Você</h5>
                             {eachComment}
                         </li>
                     ))}
                 </ul>
                 <ul>
                     <li className="commentsBarUser">
-                        <h5> {comment}</h5>
+                        <h5 role={'usersCommit'}> {comment}</h5>
                     </li>
                 </ul>
             </div>

@@ -101,6 +101,8 @@
     font-size: 180px;
     writing-mode: vertical-rl;
     opacity: 30%;
+    color: rgb(140, 140, 140);
+    font-weight: 300;
 }
 
 
@@ -114,6 +116,7 @@
 .content .partition{
     margin-top: 75px;
     height: 30%;
+    opacity: 20%;
 }
 
 

@@ -3,6 +3,8 @@ import { IoMdSend } from 'react-icons/io'; // Ícone de envio da mensagem
 
 
 
+// ---------- COMPONENTE DE POSTS CENTRAL DA APLCIAÇÃO ---------- // 
+
 const Posts = ({ imagePost, avatar, name, comment }) => {
 
     const [comments, setComments] = useState(''); // State responsavél pela ação de envio dos Comentários

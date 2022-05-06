@@ -40,7 +40,7 @@ const HomePage = () => {
         <div className="content">
 
             <div className="decoration">
-                <p  data-aos="fade-right">Postagens</p>
+                <p data-aos="fade-right">Postagens</p>
             </div>
 
             <div className="posts" role={"posts"}>
@@ -61,7 +61,7 @@ const HomePage = () => {
                 </div>
                 <div className="adverts">
                     <div className="divAdverts">
-                        <img src="https://i.imgur.com/vJap7sw.png" alt='advertsImage'/>
+                        <img src="https://i.imgur.com/vJap7sw.png" alt='advertsImage' />
                     </div>
                 </div>
             </div>

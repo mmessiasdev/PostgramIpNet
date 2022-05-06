@@ -36,11 +36,11 @@
 }
 
 .rightBar .users::-webkit-scrollbar-thumb {
-    background-color: #000000;
+    background-color: #fcfcfc;
     border-radius: 15px;
 }
 .rightBar .users::-webkit-scrollbar-track {
-    background-color: #c4c4c4;
+    background-color: #ffffff;
 }
 .user .userName{
     display: flex;

@@ -32,7 +32,9 @@ Essa aplicação foi criada com o íntuito de demonstrar algumas das minhas skil
 
 #### 7 - Realizar Testes ✅
 
-#### 8 - Publicar ✅
+#### 8 - Deixar todo site resposivo ✅
+
+#### 9 - Publicar ✅
 
 - ## Projeto Figma [Link](https://www.figma.com/file/qPokwnnGkQS5hx5rH4EnSL/Untitled?node-id=0%3A1)
 <img src="https://i.imgur.com/hqPrkIV.png">

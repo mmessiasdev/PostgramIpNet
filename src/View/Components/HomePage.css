@@ -154,3 +154,33 @@
     height: 30px;
     background-color: blueviolet;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 970px) {
+    .content .rightBar{
+        display: none;
+    }
+    .content .decoration{
+        display: none;
+    }
+    .content .partition{
+        display: none;
+    }
+    .HomePage .content{
+        padding-bottom: 150px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+}

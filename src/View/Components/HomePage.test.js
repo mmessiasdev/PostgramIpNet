@@ -3,7 +3,7 @@ import HomePage from './HomePage';
 
 
 
-// IMPORTANTE!! - COMENTE OU RETIRE AS LINHAS DE CÓDIGO SLENDER/SLICK CAROULSEL, ANTES DE REALIZAR OS TESTES ("./Users/Users" -> Linha 1, 26, 36).
+// IMPORTANT!! - COMMENT OR REMOVE THE SLENDER/SLICK CAROULSEL CODE LINES BEFORE PERFORMING THE TESTS ("./Users/Users" -> Linha 1, 26, 36).
 
 describe("HomePage render Components", () => {
 
@@ -14,7 +14,7 @@ describe("HomePage render Components", () => {
     });
 
 
-    it("Versificar renderização de usurários", () => {
+    it("Verificar renderização de usurários", () => {
         render(<HomePage/>);
         const usersCont = screen.queryByRole('users');
         expect(usersCont).toBeInTheDocument();

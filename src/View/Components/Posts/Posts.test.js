@@ -2,7 +2,7 @@ import { fireEvent } from '@testing-library/react';
 import { render, screen, userEvent } from '../../../Controller/Tests';
 import Posts from './Posts';
 
-// IMPORTANTE!! - COMENTE OU RETIRE AS LINHAS DE CÓDIGO SLENDER/SLICK CAROULSEL, ANTES DE REALIZAR OS TESTES ("../Users/Users" -> Linha 1, 26, 36).
+// IMPORTANT!! - COMMENT OR REMOVE THE SLENDER/SLICK CAROULSEL CODE LINES BEFORE PERFORMING THE TESTS ("../Users/Users" -> Linha 1, 26, 36).
 
 describe("Post functions and elements validation", () => {
     it("Verificar se componente de foto está sendo renderizado", () => {

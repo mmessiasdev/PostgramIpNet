@@ -9,11 +9,11 @@ import Data from '../../Model/users.json'; // Json de usuários
 
 
 
-// ---------- COMPONENTES RESPONSÁVEIS PELO MAIN DA PÁGINA ---------- // 
+// ---------- COMPONENTS RESPONSIBLE FOR THE MAIN OF THE PAGE ---------- // 
 
 const HomePage = () => {
 
-    const [navBar, setNavBar] = useState(false); // Responsável pela animação de Scroll da barra Menu
+    const [navBar, setNavBar] = useState(false); // Responsible for the Menu bar Scroll animation
     const changeBackground = () => {
         if (window.scrollY >= 10) {
             setNavBar(true);

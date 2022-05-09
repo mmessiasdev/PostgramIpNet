@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IoMdSend } from 'react-icons/io'; // Ícone de envio da mensagem
+import { IoMdSend } from 'react-icons/io'; // Message send icon
 
 
 
@@ -7,17 +7,17 @@ import { IoMdSend } from 'react-icons/io'; // Ícone de envio da mensagem
 
 const Posts = ({ imagePost, avatar, name, comment }) => {
 
-    const [comments, setComments] = useState(''); // State responsavél pela ação de envio dos Comentários
-    const [allComments, setAllComments] = useState([]); // State de passagem dos comentários de input pra Div
+    const [comments, setComments] = useState(''); // State responsible for the action of sending the Comments
+    const [allComments, setAllComments] = useState([]); // Passing state from input comments to Div
 
 
-    // Set de valores dos Comentários   
+    // Comments value set
     function changesTextarea(event) {
         setComments(event.target.value)
     }
 
 
-    // Responsavél pela ação clique dos comentários
+    // Responsible for the click action of the comments
     function clickButton() { 
         const allPreviousComments = [...allComments, comments]
         setAllComments(allPreviousComments)

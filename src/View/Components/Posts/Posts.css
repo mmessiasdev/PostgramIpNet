@@ -20,7 +20,7 @@
 
 
 
-/* ---------- Comentários ------------- */
+/* ---------- Comments ------------- */
 
 .mainPost {
     width: 55%;
@@ -58,7 +58,7 @@
 
 
 
-/* ---------- Div comtário dos Usuários ------------- */
+/* ---------- Users' Commentary Div ------------- */
 
 .post .comments {
     background-color: #F0E5E5;
@@ -115,7 +115,7 @@
 
 
 
-/* ---------- Input de Comentários ------------- */
+/* ---------- Comments Input ------------- */
 
 .comments .commentBar {
     height: 10%;
@@ -181,6 +181,11 @@
 
     .comments .commentInput {
         margin-top: 20px;
+    }
+    .post .userName {
+        padding-block: 1px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 }
 

@@ -5,7 +5,7 @@
 
 
 
-/* Header da Página */
+/* Page Header */
 
 .HomePage header{
     padding-left: 25px;
@@ -78,7 +78,7 @@
 
 
 
-/* ---------- Conteúdo da página ------------- */
+/* ---------- page content ------------- */
 
 .HomePage .content{
     padding-bottom: 150px;
@@ -89,7 +89,7 @@
 
 
 
-/* Texto lateral "Postagens" */
+/* Side text "Posts" */
 
 .content .decoration{
     height: 100%;
@@ -107,7 +107,7 @@
 
 
 
-/* Postagens */
+/* posts */
 
 .content .posts{
     height: 100%;
@@ -121,7 +121,7 @@
 
 
 
-/* Barra Lateral */
+/* Side bar */
 
 .content .rightBar{
     height: 100%;

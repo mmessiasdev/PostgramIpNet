@@ -3,7 +3,7 @@ import Users from './Users';
 
 
 
-// IMPORTANTE!! - COMENTE OU RETIRE AS LINHAS DE CÓDIGO SLENDER/SLICK CAROULSEL, ANTES DE REALIZAR OS TESTES ("./Users" -> Linha 1, 26, 36).
+// IMPORTANT!! - COMMENT OR REMOVE THE SLENDER/SLICK CAROULSEL CODE LINES BEFORE PERFORMING THE TESTS ("./Users" -> Linha 1, 26, 36).
 
 describe("Users render Components", () => {
     

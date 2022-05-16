@@ -1,4 +1,4 @@
-// Import's essenciais para o bom funcionamento dos testes.
+// Import's essential for the proper functioning of the tests.
 
 import '@testing-library/jest-dom';
 import {screen, render} from '@testing-library/react';

@@ -5,7 +5,7 @@ import Users from "./Users/Users";
 
 import { FaGithubSquare } from 'react-icons/fa';
 
-import Data from '../../Model/users.json'; // Json de usuários
+import Data from '../../Model/users.json'; // users json    
 
 
 

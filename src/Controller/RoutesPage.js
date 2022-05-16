@@ -7,7 +7,7 @@ import Login from '../View/Login';
 import HomePage from '../View/Components/HomePage'
 
 
-// ---------- PARTE RESPONSÁVEL PELO GERENCIAMENTO DE PÁGINAS DO APP ---------- // 
+// ---------- PART RESPONSIBLE FOR MANAGING THE APP'S PAGES ---------- // 
 
 function RoutesPage() {
 

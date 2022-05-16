@@ -29,7 +29,7 @@
 
 
 
-/* ---------- Scrol lateral da página ------------- */
+/* ---------- Side scroll of page ------------- */
 
 .rightBar .users::-webkit-scrollbar {
     width: 2px;
@@ -57,7 +57,7 @@
 
 
 
-/* ---------- Div de usuários ------------- */
+/* ---------- User div ------------- */
 
 .divPhotoUsers{
     height: 120px;

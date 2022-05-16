@@ -2,11 +2,11 @@ import Slender from 'react-slick';
 
 
 
-// ---------- COMPONENTE RESPONSÁVEL PELA RENDERIZAÇÃO DE USUÁRIOS DA BARRA LATERAL ESQUERDA ---------- // 
+// ---------- COMPONENT RESPONSIBLE FOR USER RENDERING OF THE LEFT SIDEBAR ---------- // 
 
 const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
 
-    var settings = { // Responsável pela dinâmica do Carousel na página
+    var settings = { // Responsible for the dynamics of the Carousel on the page
         dots: true,
         infinite: true,
         slidesToShow: 1,
